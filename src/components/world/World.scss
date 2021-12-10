@@ -1,0 +1,31 @@
+.world {
+  grid-row: 5/6;
+  grid-column: 2/3;
+  align-items: start;
+  margin-top: 6.5rem;
+
+  &__block {
+    width: 55%;
+  }
+
+  &_mb {
+    margin-bottom: 6rem!important;
+  }
+
+  &__header {
+    font-weight: 900;
+    font-size: 5rem;
+    line-height: 7rem;
+
+    &_mb {
+      margin-bottom: 2.6rem!important;
+    }
+  }
+
+  &__text {
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 3rem;
+    margin-bottom: 2.6rem;
+  }
+}
