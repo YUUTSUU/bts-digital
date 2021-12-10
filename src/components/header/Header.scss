@@ -6,8 +6,7 @@
   background-color: #fff;
   padding: 0 calc(50% - 60rem);
   border-bottom: 1px solid #4e5761;
-  z-index: 999; //
-  user-select: none;
+  z-index: 9;
 
   &__left {
     display: flex;
@@ -60,4 +59,4 @@
       }
     }
   }
-}
+

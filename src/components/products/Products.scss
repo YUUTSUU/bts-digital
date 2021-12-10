@@ -42,11 +42,7 @@
     &_inner {
       cursor: pointer;
       position: relative;
-      z-index: 10000000;
-      -webkit-user-drag: none;
-      -webkit-user-select: none;
-      -ms-user-select: none;
-      user-select: none;
+      z-index: 9;
       text-decoration: none;
       color: inherit;
       margin: 1rem 0 2rem;
@@ -92,12 +88,12 @@
 
   .slick-prev {
   left: 1rem!important;
-  z-index: 10000000;
+  z-index: 99;
   }
 
   .slick-next {
     right: 1rem!important;
-    z-index: 10000000;
+    z-index: 99;
   }
 
   .slick-prev:before {

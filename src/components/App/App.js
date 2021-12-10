@@ -6,6 +6,7 @@ import World from "../world/World"
 import Vacancies from "../vacancies/Vacancies"
 import Footer from "../footer/Footer"
 import ErrorBoundary from "../errorBoundary/ErrorBoundary"
+import Sidebar from "../sidebar/Sidebar"
 import './App.scss';
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         <Vacancies />
       </ErrorBoundary>
       <Footer />
+      <Sidebar />
     </div>
   );
 }

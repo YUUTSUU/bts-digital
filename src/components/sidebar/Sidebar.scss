@@ -1,0 +1,40 @@
+.sidebar {
+  z-index: 1;
+  position: absolute;
+  user-select: none;
+  top: 0;
+  right: 10rem;
+  height: 100%;
+  pointer-events: none;
+  overflow: hidden;
+
+  &__list {
+    padding-right: 10rem;
+    transform: rotate(-90deg);
+    transform-origin: bottom right;
+    list-style: none;
+    display: flex;
+    overflow: hidden;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  &__item {
+    white-space: nowrap;
+    overflow: hidden;
+    font-weight: 700;
+    font-size: 9rem;
+    line-height: 8.5rem;
+    color: #f6f2f2;
+  }
+
+  &__item:not(:last-child) {
+    margin-right: 20rem;
+  }
+}
+
+@media only screen and (max-width: 109em) {
+  .sidebar {
+    display: none;
+  }
+}
