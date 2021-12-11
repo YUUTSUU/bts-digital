@@ -107,3 +107,19 @@
   }
 }
 
+@media only screen and (max-width: 62.5em) {
+  .products__carousel_block {
+    padding: 0 3rem;
+  }
+}
+
+@media only screen and (max-width: 31.25em) {
+  .products__header {
+    font-size: 4rem;
+    line-height: 4rem;
+  }
+
+  .products__carousel_block {
+    padding: 0 1rem;
+  }
+}

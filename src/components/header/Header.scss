@@ -60,3 +60,36 @@
     }
   }
 }
+
+@media only screen and (max-width: 77.5em) {
+  .header {
+    padding: 0 10rem;
+  }
+}
+
+@media only screen and (max-width: 62.5em) {
+  .header {
+    padding: 0 3.5rem;
+  }
+}
+
+
+@media only screen and (max-width: 50em) {
+  .header {
+    padding: 0 3rem;
+
+    &__menu {
+      display: none;
+    }
+
+    &__language {
+      display: none;
+    }
+  }  
+}
+
+@media only screen and (max-width: 31.25em) {
+  .header {
+    padding: 0 1.5rem;
+  }
+}

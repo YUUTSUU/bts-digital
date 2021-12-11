@@ -56,3 +56,16 @@
     transform: translate(1rem,-50%);
   }
 }
+
+@media only screen and (max-width: 62.5em) {
+  .intro__right {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 31.25em) {
+  .intro__header {
+    font-size: 4rem;
+    line-height: 4rem;
+  }
+}

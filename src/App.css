@@ -15,3 +15,9 @@ body {
     box-sizing: border-box;
     z-index: 2;
 }
+
+@media only screen and (max-width: 77.5em) {
+  html {
+    font-size: 50%;
+  }
+}

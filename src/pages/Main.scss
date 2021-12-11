@@ -1,0 +1,27 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 120rem 1fr;
+  grid-template-rows: 8rem repeat(7,max-content);
+  align-content: start;
+  overflow: hidden;
+  align-items: start;
+  position: relative;
+}
+
+@media only screen and (max-width: 77.5em) {
+  .container {
+    grid-template-columns: 10rem 1fr 10rem;
+  }
+}
+
+@media only screen and (max-width: 62.5em) {
+  .container {
+    grid-template-columns: 3rem 1fr 3rem;
+  }
+}
+
+@media only screen and (max-width: 31.25em) {
+  .container {
+    grid-template-columns: 1.5rem 1fr 1.5rem;
+  }
+}
