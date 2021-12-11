@@ -6,11 +6,13 @@ import World from "../components/world/World"
 import Vacancies from "../components/vacancies/Vacancies"
 import Footer from "../components/footer/Footer"
 import Sidebar from "../components/sidebar/Sidebar"
+import Burger from "../components/burger/Burger"
 import './Main.scss';
 
 const Main = () => {
   return (
     <div className="container">
+      <Burger />
       <Header />
       <Intro />
       <Products />
